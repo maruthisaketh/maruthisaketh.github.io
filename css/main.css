@@ -26,3 +26,21 @@
 .timeline-content {
   margin-top: 20px;
 }
+
+/* Additional styles for the home section */
+.home-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.home-header h1 {
+  font-size: 36px;
+}
+
+.home-buttons {
+  text-align: center;
+}
+
+.home-buttons a {
+  margin: 0 10px;
+}
