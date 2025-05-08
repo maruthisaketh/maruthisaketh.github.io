@@ -1,0 +1,145 @@
+.timeline-container {
+    background-color: #0b0b1f;
+    color: #fff;
+    padding: 4rem 2rem;
+  }
+  
+  .timeline {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1000px;
+  }
+  
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background-color: white;
+    transform: translateX(-50%);
+  }
+  
+  .timeline-item {
+    position: relative;
+    width: 50%;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  .timeline-item.left {
+    left: 0;
+    text-align: left;
+  }
+  
+  .timeline-item.right {
+    left: 50%;
+    text-align: left;
+  }
+  
+  .content-card {
+    background-color: #1e1935;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-bottom: 4px solid #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  }
+  
+  .content-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+  }
+  
+  .content-card p {
+    color: #a0aec0;
+    margin-bottom: 0.75rem;
+  }
+  
+  .content-card ul {
+    list-style-type: disc;
+    padding-left: 1.25rem;
+    margin: 0;
+  }
+  
+  .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+  
+  .circle img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+  }
+  
+  .timeline-item.left .circle {
+    left: 100%;
+    margin-left: -32px;
+  }
+  
+  .timeline-item.right .circle {
+    left: 0%;
+    margin-left: -32px;
+  }
+  
+  .date {
+    position: absolute;
+    top: 50%;
+    font-weight: 600;
+    color: #a0aec0;
+    transform: translateY(-50%);
+    font-size: 0.95rem;
+  }
+  
+  .timeline-item.left .date {
+    right: -130px;
+  }
+  
+  .timeline-item.right .date {
+    left: -130px;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .timeline::before {
+      left: 8px;
+    }
+  
+    .timeline-item {
+      width: 100%;
+      padding-left: 2.5rem;
+      padding-right: 0;
+      margin-bottom: 3rem;
+    }
+  
+    .timeline-item.right {
+      left: 0;
+    }
+  
+    .circle {
+      left: 0;
+      margin-left: 0;
+      transform: translateY(-50%);
+    }
+  
+    .date {
+      left: 70px;
+      top: auto;
+      bottom: -2rem;
+      transform: none;
+    }
+  }
+  

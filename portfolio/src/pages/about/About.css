@@ -6,14 +6,24 @@
     background-color: #0f0f20;
     min-height: 100vh;
   }
-  
+
   .about-content {
     display: flex;
     flex-wrap: wrap;
     max-width: 1200px;
     align-items: center;
     gap: 2rem;
+    margin: 0 auto; /* ⬅️ This line centers it horizontally */
   }
+  
+  
+  /* .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    align-items: center;
+    gap: 2rem;
+  } */
   
   .about-left {
     flex: 1;
@@ -25,7 +35,7 @@
   .about-image-wrapper {
     border-radius: 50%;
     padding: 5px;
-    background: radial-gradient(circle, #a855f7, #6366f1);
+    background: radial-gradient(circle, #55c1ff, #6366f1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,7 +65,7 @@
   }
   
   .resume-btn {
-    background: linear-gradient(to right, #6366f1, #a855f7);
+    background: linear-gradient(to right, #55c1ff, #55c1ff);
     color: white;
   }
   

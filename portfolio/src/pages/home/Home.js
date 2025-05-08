@@ -1,4 +1,6 @@
 import { motion } from 'framer-motion';
+import About from '../about/About';
+import Work from '../work/Work';
 
 function Home() {
   return (
@@ -8,7 +10,8 @@ function Home() {
       exit={{ opacity: 0, x: 50 }}
       transition={{ duration: 0.5 }}
     >
-      <h1>Home Page</h1>
+      <About/>
+      <Work/>
     </motion.div>
   );
 }
