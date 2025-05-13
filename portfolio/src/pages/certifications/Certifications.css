@@ -1,65 +1,86 @@
-/* body {
-    background-color: #000;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  } */
-
 .certs-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 24px;
     padding: 40px;
-}
-
-.cert-card {
-    background-color:  #15103080;
+    background-color: #0e0e1a; /* Updated: Background */
+    color: #ffffff; /* Text - Primary */
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .cert-card {
+    background-color: #1a1b2e; /* Surface / Card BG */
     border-radius: 12px;
     padding: 20px;
     position: relative;
-    transition: transform 0.2s ease;
-}
-
-.cert-card:hover {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 240px; /* Set a minimum height for equal sizing */
+  }
+  
+  
+  .cert-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 0 10px  #2d556d;
-}
-
-.cert-header {
+    box-shadow: 0 0 10px #4cc9f0; /* Updated: Primary Accent */
+  }
+  
+  .cert-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.cert-icon {
-    font-size: 20px;
-    color: #339dff;
-}
-
-.cert-link-icon {
+  }
+  
+  .cert-icon {
+    /* font-size: 20px; */
+    color: #06d6a0; /* Success color */
+    max-width: 64
+    px;
+    max-height: 32px;
+    display: inline-block;
+  }
+  
+  
+  .cert-link-icon {
     width: 24px;
     height: 24px;
     fill: none;
-    stroke: #55c1ff;
+    stroke: #4cc9f0; /* Updated: Primary Accent */
     stroke-width: 2;
     stroke-linecap: round;
     stroke-linejoin: round;
-}
-
-.cert-title {
+  }
+  
+  .cert-title {
     font-size: 16px;
     font-weight: bold;
     margin-top: 12px;
     margin-bottom: 8px;
-    color:  #55c1ff;
-}
-
-.cert-org {
+    color: #4cc9f0; /* Updated: Primary Accent */
+  }
+  
+  .cert-org {
     font-size: 14px;
-    color: #ccc;
+    color: #a5acc9; /* Updated: Text - Secondary */
     margin-bottom: 6px;
-}
-
-.cert-date {
+  }
+  
+  .cert-date {
     font-size: 12px;
-    color: #999;
-}
+    color: #a5acc9; /* Updated: Text - Secondary */
+  }
+
+  .cert-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform 0.2s ease;
+    border-radius: 12px;
+  }
+  
+  .cert-card-link:hover {
+    transform: translateY(-4px);
+  }
+  
+  

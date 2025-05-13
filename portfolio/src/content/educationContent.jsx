@@ -1,18 +1,18 @@
 // educationData.js
 const educationData = [
     {
-      title: "Honours Computer Science (H. BSc)",
-      institution: "Ontario Tech University, Oshawa, ON",
-      period: "2022 – Present",
-      details: ["Dean's Honours List – Fall 2024"],
-      logo: "uniLogo.png", // Make sure this is in your /assets folder
+      title: "Master of Science in Computer Science (M.S.)",
+      institution: "University of Texas at Arlington",
+      period: "2022 – 2024",
+      details: ["Arlington, TX, USA"],
+      logo: "/images/icons/uta.png", // Make sure this is in your /assets folder
     },
     {
-      title: "High School",
-      institution: "Richmond Hill High School, ON",
-      period: "2018–2022",
-      details: ["Ontario Scholar", "12th Grade: 96%"],
-      logo: "highschoolLogo.png",
+      title: "B.Tech in Computer Science",
+      institution: "VNR Vignana Jyothi Institute of engineering and Technoloty",
+      period: "2015-2019",
+      details: ["Hyderabad, Telangana, India"],
+      logo: "/images/icons/vnr.jpg",
     }
   ];
   

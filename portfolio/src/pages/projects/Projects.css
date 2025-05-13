@@ -1,64 +1,59 @@
-/* body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #000;
-    color: #fff;
-  } */
-  
-  .projects-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 24px;
-    padding: 40px;
-  }
-  
-  .project-card {
-    background-color: #15103080;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 0 10px  #2d556d;
-    transition: transform 0.3s ease;
-  }
-  
-  .project-card:hover {
-    transform: scale(1.02);
-  }
-  
-  .project-image {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-  }
-  
-  .project-content {
-    padding: 20px;
-  }
-  
-  .project-title {
-    color:  #55c1ff;
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 12px;
-  }
-  
-  .project-description {
-    font-size: 14px;
-    line-height: 1.5;
-    margin-bottom: 16px;
-  }
-  
-  .project-tech {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  
-  .tech-badge {
-    background-color: #0f2f36;
-    color: #5eead4;
-    font-size: 0.75rem;
-    padding: 6px 14px;
-    border-radius: 9999px;
-    font-weight: 500;
-  }
-  
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  padding: 40px;
+  background-color: #0e0e1a; /* Background */
+  color: #ffffff; /* Text - Primary */
+}
+
+.project-card {
+  background-color: #1a1b2e; /* Surface / Card BG */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #4cc9f040; /* Subtle Primary Accent glow */
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-content {
+  padding: 20px;
+}
+
+.project-title {
+  color: #4cc9f0; /* Primary Accent */
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.project-description {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  color: #a5acc9; /* Text - Secondary */
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech-badge {
+  background-color: #27293d; /* Tag / Chip BG */
+  color: #4cc9f0; /* Tag / Chip Text */
+  font-size: 0.75rem;
+  padding: 6px 14px;
+  border-radius: 9999px;
+  font-weight: 500;
+}

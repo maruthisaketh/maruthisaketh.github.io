@@ -16,7 +16,7 @@ const aboutData = {
       },
       {
         icon: "🔧",
-        text: "I enjoy automating workflows, optimizing systems, and turning complex challenges into real results. 📈",
+        text: "I enjoy developing VR and Mobile applications using Unity",
       },
       {
         icon: "💡",

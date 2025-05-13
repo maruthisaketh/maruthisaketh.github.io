@@ -18,8 +18,10 @@ function About() {
                         <img src={image} alt="profile" className="about-image" />
                     </div>
                     <div className="about-buttons">
-                        <a href={links.resume} className="btn resume-btn" target="_blank" rel="noopener noreferrer">Resume</a>
-                        <a href={links.linkedin} className="btn linkedin-btn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <div class="top-buttons">
+                            <a href={links.resume} className="btn resume-btn" target="_blank" rel="noopener noreferrer">Resume</a>
+                            <a href={links.linkedin} className="btn linkedin-btn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        </div>
                         <a href={links.github} className="btn github-btn" target="_blank" rel="noopener noreferrer">GitHub</a>
                     </div>
                 </div>

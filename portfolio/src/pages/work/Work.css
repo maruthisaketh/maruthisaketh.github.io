@@ -1,54 +1,53 @@
 /* Work.css */
 
 .work-section {
-    /* background-color: #0a0c2c; */
-    color: white;
-    padding: 60px 20px;
-    font-family: 'Inter', sans-serif;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .work-entry {
-    margin-bottom: 48px;
-  }
-  
-  .work-dates {
-    color: #7c88b0;
-    font-size: 0.9rem;
-    margin-bottom: 8px;
-  }
-  
-  .work-title {
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: #ffffff;
-  }
-  
-  .work-company {
-    color: #55c1ff;
-  }
-  
-  .work-description {
-    color: #cbd5e1;
-    font-size: 0.95rem;
-    margin-top: 8px;
-    line-height: 1.6;
-  }
-  
-  .work-tags {
-    margin-top: 16px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  
-  .work-tag {
-    background-color: #0f2f36;
-    color: #5eead4;
-    font-size: 0.75rem;
-    padding: 6px 14px;
-    border-radius: 9999px;
-    font-weight: 500;
-  }
-  
+  background-color: #0e0e1a; /* Updated: Background */
+  color: #ffffff; /* Text - Primary */
+  padding: 60px 20px;
+  font-family: 'Inter', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.work-entry {
+  margin-bottom: 48px;
+}
+
+.work-dates {
+  color: #a5acc9; /* Updated: Text - Secondary */
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.work-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff; /* Text - Primary */
+}
+
+.work-company {
+  color: #4cc9f0; /* Updated: Primary Accent */
+}
+
+.work-description {
+  color: #a5acc9; /* Updated: Text - Secondary */
+  font-size: 0.95rem;
+  margin-top: 8px;
+  line-height: 1.6;
+}
+
+.work-tags {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.work-tag {
+  background-color: #27293d; /* Updated: Tag / Chip BG */
+  color: #4cc9f0; /* Updated: Tag / Chip Text */
+  font-size: 0.75rem;
+  padding: 6px 14px;
+  border-radius: 9999px;
+  font-weight: 500;
+}

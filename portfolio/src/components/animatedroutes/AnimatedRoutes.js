@@ -7,6 +7,7 @@ import Projects from '../../pages/projects/Projects';
 import Skills from '../../pages/skills/Skills';
 import Certifications from '../../pages/certifications/Certifications';
 import Education from '../../pages/education/Education';
+import Contact from '../../pages/contact/Contact';
 
 function AnimatedRoutes() {
     const location = useLocation();
@@ -21,13 +22,7 @@ function AnimatedRoutes() {
                 <Route path="/skills" element={<Skills />} />
                 <Route path="/certifications" element={<Certifications />} />
                 <Route path="/education" element={<Education />} />
-
-                {/* 
-                
-                
-                
-                
-                <Route path="/contact" element={<Contact />} /> */}
+                <Route path="/contact" element={<Contact />} />
             </Routes>
         </AnimatePresence>
     );
