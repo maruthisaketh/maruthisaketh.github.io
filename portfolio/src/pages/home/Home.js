@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import About from '../about/About';
 import Work from '../work/Work';
+import Education from '../education/Education';
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
     >
       <About/>
       <Work/>
+      <Education/>
     </motion.div>
   );
 }

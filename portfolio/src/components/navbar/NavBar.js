@@ -6,7 +6,7 @@ function NavBar() {
             <nav className="navbar">
                 <div className="navbar-left">
                     <img src="/favicon.png" alt="logo" className="logo" />
-                    <span className="name">&lt;Maruthi Saketh&gt;</span>
+                    <span className="name">&lt;Maruthi Saketh Abbaraju&gt;</span>
                 </div>
                 <div className="navbar-right">
                     <Link className="nav-link" to="/">Home</Link>
