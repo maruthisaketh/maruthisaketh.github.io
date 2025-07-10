@@ -105,11 +105,11 @@
 }
 
 .timeline-item.left .date {
-  right: -130px;
+  right: -20%;
 }
 
 .timeline-item.right .date {
-  left: -130px;
+  left: -30%;
 }
 
 /* Responsive */
