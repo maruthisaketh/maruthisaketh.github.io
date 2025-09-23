@@ -2,6 +2,9 @@ import { motion } from 'framer-motion';
 import About from '../about/About';
 import Work from '../work/Work';
 import Education from '../education/Education';
+import Skills from "../skills/Skills"
+import Certifications from '../certifications/Certifications';
+import Contact from '../contact/Contact';
 
 function Home() {
   return (
@@ -14,6 +17,9 @@ function Home() {
       <About/>
       <Work/>
       <Education/>
+      <Skills/>
+      <Certifications/>
+      <Contact/>
     </motion.div>
   );
 }

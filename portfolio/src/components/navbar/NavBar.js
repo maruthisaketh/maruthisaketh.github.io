@@ -11,11 +11,11 @@ function NavBar() {
                 <div className="navbar-right">
                     <Link className="nav-link" to="/">Home</Link>
                     <Link className="nav-link" to="/about">About</Link>
-                    <Link className="nav-link" to="/education">Education</Link>
                     <Link className="nav-link" to="/work">Work</Link>
-                    <Link className="nav-link" to="/certifications">Certifications</Link>
+                    <Link className="nav-link" to="/education">Education</Link>
                     <Link className="nav-link" to="/skills">Skills</Link>
-                    <Link className="nav-link" to="/projects">Projects</Link>
+                    <Link className="nav-link" to="/certifications">Certifications</Link>
+                    {/* <Link className="nav-link" to="/projects">Projects</Link> */}
                     <Link className="nav-link" to="/contact">Contact</Link>
                 </div>
             </nav>

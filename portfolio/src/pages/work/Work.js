@@ -4,21 +4,21 @@ import workData from "../../content/workContent";
 import './Work.css'
 
 const WorkExperience = ({ dates, title, company, description, tags }) => (
-    <div className="work-entry">
-      <p className="work-dates">{dates}</p>
-      <h3 className="work-title">
-        {title} · <span className="work-company">{company}</span>
-      </h3>
-      <p className="work-description">{description}</p>
-      <div className="work-tags">
-        {tags.map((tag, i) => (
-          <span key={i} className="work-tag">
-            {tag}
-          </span>
-        ))}
-      </div>
+  <div className="work-entry">
+    <p className="work-dates">{dates}</p>
+    <h3 className="work-title">
+      {title} · <span className="work-company">{company}</span>
+    </h3>
+    <p className="work-description">{description}</p>
+    <div className="work-tags">
+      {tags.map((tag, i) => (
+        <span key={i} className="work-tag">
+          {tag}
+        </span>
+      ))}
     </div>
-  );
+  </div>
+);
 
 function Work() {
   return (
@@ -29,10 +29,10 @@ function Work() {
       transition={{ duration: 0.5 }}
     >
       <section className="work-section">
-      {workData.map((job, index) => (
-        <WorkExperience key={index} {...job} />
-      ))}
-    </section>
+        {workData.map((job, index) => (
+          <WorkExperience key={index} {...job} />
+        ))}
+      </section>
     </motion.div>
   );
 }
