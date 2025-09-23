@@ -3,6 +3,11 @@ import educationData from '../../content/educationContent';
 
 const Education = () => {
   return (
+    <>
+    <div className='App-section-header'>
+      <h1>Education</h1>
+      <hr></hr>
+    </div>
     <div className="timeline-container">
       <div className="timeline">
         {educationData.map((edu, index) => {
@@ -30,6 +35,7 @@ const Education = () => {
         })}
       </div>
     </div>
+    </>
   );
 };
 

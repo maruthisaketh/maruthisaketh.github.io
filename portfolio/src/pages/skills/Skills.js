@@ -2,7 +2,12 @@ import './Skills.css';
 import skillsData from '../../content/skillsContent';
 
 function Skills() {
-    return (
+  return (
+    <>
+      <div className='App-section-header'>
+        <h1>Skills</h1>
+        <hr></hr>
+      </div>
       <div className="skills-container">
         {Object.entries(skillsData).map(([category, items], index) => (
           <div key={index} className="skills-section">
@@ -19,7 +24,8 @@ function Skills() {
           </div>
         ))}
       </div>
-    );
-  };
-  
-  export default Skills;
+    </>
+  );
+};
+
+export default Skills;

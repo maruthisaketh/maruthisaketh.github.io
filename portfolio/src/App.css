@@ -54,3 +54,9 @@ h1, h2, h3, h4 {
     transform: rotate(360deg);
   }
 }
+
+.App-section-header {
+  background-color: #0e0e1a; /* Updated: Background */
+  color: #ffffff; /* Text - Primary */
+  padding: 4rem 2rem;
+}
