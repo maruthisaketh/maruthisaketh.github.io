@@ -5,10 +5,10 @@ import contactDetails from '../../content/contactContent';
 const Contact = () => {
     return (
         <>
-            <div className='App-section-header'>
+            {/* <div className='App-section-header'>
                 <h1>Contact Details</h1>
                 <hr></hr>
-            </div>
+            </div> */}
 
             <section className="contact-section">
                 <div className="contact-card">

@@ -4,10 +4,10 @@ import certificationsData from '../../content/certificatesContent';
 function Certifications() {
   return (
     <>
-      <div className='App-section-header'>
+      {/* <div className='App-section-header'>
         <h1>Certifications</h1>
         <hr></hr>
-      </div>
+      </div> */}
       <div className="certs-container">
         {certificationsData.map((cert, index) => (
           <a

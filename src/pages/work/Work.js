@@ -28,10 +28,10 @@ function Work() {
       exit={{ opacity: 0, x: -50 }}
       transition={{ duration: 0.5 }}
     >
-      <div className='App-section-header'>
+      {/* <div className='App-section-header'>
         <h1>Work Experience</h1>
         <hr></hr>
-      </div>
+      </div> */}
       <section className="work-section">
         {workData.map((job, index) => (
           <WorkExperience key={index} {...job} />

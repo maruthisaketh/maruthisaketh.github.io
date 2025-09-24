@@ -4,10 +4,10 @@ import skillsData from '../../content/skillsContent';
 function Skills() {
   return (
     <>
-      <div className='App-section-header'>
+      {/* <div className='App-section-header'>
         <h1>Skills</h1>
         <hr></hr>
-      </div>
+      </div> */}
       <div className="skills-container">
         {Object.entries(skillsData).map(([category, items], index) => (
           <div key={index} className="skills-section">
